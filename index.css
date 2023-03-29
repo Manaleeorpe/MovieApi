@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("https://source.unsplash.com/featured/2000x1000/?landscape") ;
+
+}
+
+.cardAbove {
+    position: absolute; top:130px; right: 160px; 
+}
+
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    background-color: #000000d0;
+
+}
+
+button:hover{
+    background: 7c7c7c6b;
+}
+
+
+.container{
+    position: absolute; top: 200px;
+    max-width: 1500px;
+    margin : 1em;
+    color: white;
+    margin-left: 75px;
+}
+
+.overlay{
+    width: 200px;
+}
+
+.overlay2{
+    margin-top: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.card-image img{
+    width: 300px;
+}
+
+.text {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    word-wrap: break-word;
+    width: 100%;
+  }
+
+  .text2 {
+    display:inline-block;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+.card-image{
+    display: inline-block;
+}
+
+
+.cols{
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    width: 320px; 
+    height: 572px;
+    margin: 50px;
+    align-items: center;
+    padding: 1em 1em;
+    border-radius: 24px;
+    background: #000000d0;
+    Overflow-y:scroll;
+}
+
+.roller{
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cols::-webkit-scrollbar {
+    display: none;
+  }
